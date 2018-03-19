@@ -17,7 +17,10 @@
 }
 
 .container {
-  padding: 150px 50px;
+  padding: 100px 50px 150px 50px;
   background-color: lightgrey;
   width: auto;
+  h2 {
+    margin-bottom: 50px;
+  }
 }
