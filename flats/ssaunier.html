@@ -6,16 +6,16 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-632d854d.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-632d854d.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo" />
+    <img src="../images/logo-acc9c0ec.png" alt="logo" />
   </a>
 
 
@@ -25,7 +25,7 @@
     <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
-    <a href="team.html" class="team navbar-wagon-item navbar-wagon-link">Team</a>
+    <a href="../team.html" class="team navbar-wagon-item navbar-wagon-link">Team</a>
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
@@ -54,25 +54,49 @@
   </div>
 </div>
 
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/gkpacker" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/gkpacker" class="img-circle" alt="Gkpacker" />
-</a>          <h2>Gabriel Packer</h2>
-          <p>
-<a href="https://github.com/gkpacker" target="_blank">              <i class="fa fa-github"></i> gkpacker
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/charlotteboucher" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/charlotteboucher" class="img-circle" alt="Charlotteboucher" />
-</a>          <h2>Charlotte Boucher</h2>
-          <p>
-<a href="https://github.com/charlotteboucher" target="_blank">              <i class="fa fa-github"></i> charlotteboucher
-</a>          </p>
-        </li>
-    </ul>
+    
+<!-- Inject flat data in template -->
+
+  <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/paris'); height: 40vh; background-position: center;">
+  </div>
+
+<div id="show">
+  <div class="wrapper" id="show">
+    <div class="flat-card">
+      <div class="flat-info">
+        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
+        <p>Sebastien's home</p>
+        <h1>Charming room in Montmartre</h1>
+        <p>Paris, France</p>
+          <p style="color: red;"><em><i class="fa fa-wifi"></i> Wi-fi</em></p>
+          <p style="color: green;"><em><i class="fa fa-coffee"></i> Breakfest</em></p>
+
+        <ul class="list-inline">
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+      </div>
+    </div>
+
+      <form action="" id="flat-form" class=" text-center">
+        <h2>Book this flat</h2>
+
+        <div class="form-input form-inline">
+          <input type="text" placeholder="checkin" class="form-control">
+          <input type="text" placeholder="checkout" class="form-control">
+        </div>
+
+        <select name="" id="" class="btn-lg">
+          <option value="1">1 guest</option>
+          <option value="2">2 guests</option>
+          <option value="3">3 guests</option>
+        </select>
+        <br>
+        <input type="submit" class="btn btn-info btn-lg" value="Book it">
+      </form>
+    </div>
   </div>
 </div>
 
